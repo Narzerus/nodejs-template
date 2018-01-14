@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["promise"],
+  "rules": {
+    "arrow-parens": ["off"],
+    "no-underscore-dangle": "off",
+    "generator-star-spacing": "off",
+    "import/prefer-default-export": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off",
+    "promise/param-names": "error",
+    "promise/always-return": "error",
+    "promise/catch-or-return": "error",
+    "promise/no-native": "off",
+    "class-methods-use-this": "off"
+  }
+}
