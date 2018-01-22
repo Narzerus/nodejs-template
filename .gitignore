@@ -32,3 +32,5 @@ npm-debug.log.*
 
 # Production build
 build
+
+.env
