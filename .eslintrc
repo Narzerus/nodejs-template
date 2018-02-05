@@ -18,6 +18,8 @@
     "promise/catch-or-return": "error",
     "promise/no-native": "off",
     "class-methods-use-this": "off",
+    "function-paren-newline": "off",
+    "object-curly-newline": "off",
     "comma-dangle": [
       "error",
       {
